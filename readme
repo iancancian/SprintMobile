@@ -9,28 +9,26 @@ Ian Cancian Nachtergaele
 RM: 98387
 
 
-Tela inicial de Login com validação de usuário/senha (usuário: maria senha: 1234)
-Armazena um token fictício no AsyncStorage para simular sessão.
-Logout disponível na tela de Perfil, limpando os dados e retornando ao login.
-
-Estrutura com Stack Navigator.
+- Tela inicial de Login com validação de usuário/senha (usuário: maria senha: 1234)
+- Armazena um token fictício no AsyncStorage para simular sessão.
+- Logout disponível na tela de Perfil, limpando os dados e retornando ao login.
+- Estrutura com Stack Navigator.
 
 Abas principais usando Bottom Tabs:
     - Perfil
     - Ativos
     - Recomendação
 
-Exibe dados pré-carregados de Maria.
-Mostra idade, perfil, liquidez, horizonte, valor a aplicar e objetivos.
-Botão de Logout destacado.
+- Exibe dados pré-carregados de Maria.
+- Mostra idade, perfil, liquidez, horizonte, valor a aplicar e objetivos.
+- Botão de Logout destacado.
+- Lista de ativos disponíveis (Caixa, CDB, Tesouro IPCA).
+- Exibe classe, liquidez e risco de cada ativo.
+- Ícones representativos para cada classe (dinheiro, carteira).
 
-Lista de ativos disponíveis (Caixa, CDB, Tesouro IPCA).
-Exibe classe, liquidez e risco de cada ativo.
-Ícones representativos para cada classe (dinheiro, carteira).
-
-Gera carteira recomendada com base no perfil, liquidez e cenário macroeconômico.
-Exibe alocação percentual (Renda Fixa x Caixa).
-Lista de ativos selecionados e respectivos pesos.
-Texto explicativo das regras aplicadas.
+- Gera carteira recomendada com base no perfil, liquidez e cenário macroeconômico.
+- Exibe alocação percentual (Renda Fixa x Caixa).
+- Lista de ativos selecionados e respectivos pesos.
+- Texto explicativo das regras aplicadas.
 
 Dados ficam armazenados apenas localmente no dispositivo
